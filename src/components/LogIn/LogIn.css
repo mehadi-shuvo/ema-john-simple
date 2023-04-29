@@ -1,0 +1,99 @@
+form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+
+.form-heading {
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.0025em;
+    text-align: center;
+    color: #2A414F;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-control label {
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    height: 55px;
+    left: 526px;
+    top: 346px;
+    border: 1px solid #95A0A7;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+    padding-left: 10px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: #0E161A;
+    width: 415px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background: rgba(255, 153, 0, 0.5);
+    transition: all linear .4s;
+}
+.form-pre{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.0025em;
+    text-align: center;
+    color: #2A414F;
+}
+.form-error{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.0025em;
+    text-align: center;
+    color: #e34c00;
+}
